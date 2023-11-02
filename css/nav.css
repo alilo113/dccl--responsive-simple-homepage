@@ -1,0 +1,32 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.nav-keys{
+    display: flex;
+    column-gap: 4rem;
+}
+
+.nav-keys a{
+    color: #223344;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #111729;
+}
+
+.toggle-btn{
+    display: flex;
+    column-gap: 0.5rem;
+    background-color: #111729;
+    border-radius: 100px;
+    padding: 0.4rem;
+}
